@@ -16,4 +16,5 @@ Sprite::~Sprite() {
 void Sprite::Render(SDL_Renderer* renderer) { // Render function 
 	SDL_RenderCopy(renderer, texture, &spriteSrcRect, &spriteDestRect);
 	//PR Requewst raise
+	//New PR Raised
 }
