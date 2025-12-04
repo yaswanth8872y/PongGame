@@ -437,4 +437,5 @@ void GameEngine::InitializeSpriteBall(const char* loadPath4, int cellX4, int cel
 	dest4.w = destW4;
 	dest4.h = destH4;
 	ball = new Sprite(loadPath4, src4, dest4, renderer);
+	//Merge the changes
 }
