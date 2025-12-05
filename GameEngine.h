@@ -79,4 +79,5 @@ public:
 	void Quit();
 	void Update();
 	bool IsRunning() { return isRunning; }
+//header file for testing
 };
