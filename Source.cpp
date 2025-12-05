@@ -8,6 +8,9 @@ int main(int argc, char * argv[]) {
 		GameEngine::Instance()->Input();
 		GameEngine::Instance()->Update();
 		GameEngine::Instance()->Render();
+		GameEngine::Instance()->Input();
+		GameEngine::Instance()->Update();
+		GameEngine::Instance()->Render();
 	}
 	GameEngine::Instance()->Quit(); //system("pause"); // not needed because of Quit()
 	return 0;
